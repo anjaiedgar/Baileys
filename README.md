@@ -79,4 +79,5 @@ await client.relayMessage(m.chat, {
     currencyCode: "IDR"
   }
 })
-*Telegram:* https://t.me/chicaatrac*Mod
+*Telegram:* https://t.me/chicaatractiva
+*Github:* anjaiedgar
