@@ -1,66 +1,60 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/zcl82b.jpg" alt="WhatsApp Baileys Badzz" width="100%" style="border-radius: 16px;" />
+<img src="https://files.catbox.moe/zcl82b.jpg" alt="WhatsApp Baileys Edgar" width="100%" />
 
 <br/>
 <br/>
 
-# \u2726 WhatsApp Baileys Edgar \u2726
+# WhatsApp Baileys Edgar
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
   <img src="https://img.shields.io/badge/Open%20Source-FF4500?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/github/stars/badzzne2/baileys?style=flat-square&color=FFD700&label=\u2b50 Stars" />
-  <img src="https://img.shields.io/github/forks/badzzne2/baileys?style=flat-square&color=25D366&label=\ud83c\udf74 Forks" />
-  <img src="https://img.shields.io/github/issues/badzzne2/baileys?style=flat-square&color=FF6B6B&label=\ud83d\udc1b Issues" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" />
-</p>
-
-> **Open-source WhatsApp automation library** \u2014 no browser required.  
-> Built on WebSocket for speed, stability, and full multi-device support.
+**Open-source WhatsApp automation library \u2014 no browser required.**  
+Built on WebSocket for speed, stability, and full multi-device support.
 
 <br/>
 
-[\ud83d\udce6 Installation](#-getting-started) \u2022 [\ud83d\udcd6 Documentation](#-sendmessage-documentation) \u2022 [\u2728 Features](#-main-features) \u2022 [\ud83d\udcac Telegram](https://t.me/badzzne2)
+[Installation](#getting-started) &nbsp;\u2022&nbsp; [Documentation](#sendmessage-documentation) &nbsp;\u2022&nbsp; [Features](#main-features) &nbsp;\u2022&nbsp; [Telegram](https://t.me/edgar)
 
 </div>
 
 ---
 
-## \ud83c\udf1f What is Baileys Badzz?
+## What is Baileys Edgar?
 
-**WhatsApp Baileys Badzz** is a powerful, open-source library built for developers who need reliable WhatsApp automation \u2014 without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons, all in a lightweight and modular package.
+**WhatsApp Baileys Edgar** is a powerful, open-source library for developers who need reliable WhatsApp automation without the overhead of a browser. Powered by **WebSocket technology**, it supports message management, group administration, interactive messages, and action buttons \u2014 all in a lightweight and modular package.
 
 Actively maintained with continuous improvements to **pairing stability**, **session management**, and **WhatsApp multi-device compatibility**.
 
 Perfect for:
-- \ud83e\udd16 Business bots & chat automation
-- \ud83c\udfa7 Customer service systems
-- \ud83d\udce3 Broadcast & notification tools
-- \ud83d\uded2 E-commerce integrations
+- Business bots & chat automation
+- Customer service systems
+- Broadcast & notification tools
+- E-commerce integrations
 
 ---
 
-## \u2728 Main Features
+## Main Features
 
 | Feature | Description |
 |---|---|
-| \ud83d\udd17 **Custom Pairing** | Stable pairing with your own codes \u2014 no disconnection issues |
-| \ud83d\udcac **Interactive Messages** | Buttons, menus, native flows, and more |
-| \ud83d\udce6 **Session Management** | Automatic, efficient, and long-term stable |
-| \ud83d\udcf1 **Multi-Device Support** | Fully compatible with WhatsApp's latest multi-device API |
-| \u26a1 **Lightweight & Modular** | Easy to integrate into any Node.js project |
-| \ud83d\udcc4 **Rich Documentation** | Comprehensive guides and example code included |
-| \ud83d\udd12 **Secure Auth** | Improved authentication flow with fixed prior vulnerabilities |
+| **Custom Pairing** | Stable pairing with your own codes \u2014 no disconnection issues |
+| **Interactive Messages** | Buttons, menus, native flows, and more |
+| **Session Management** | Automatic, efficient, and long-term stable |
+| **Multi-Device Support** | Fully compatible with WhatsApp's latest multi-device API |
+| **Lightweight & Modular** | Easy to integrate into any Node.js project |
+| **Rich Documentation** | Comprehensive guides and example code included |
+| **Secure Auth** | Improved authentication flow with fixed prior vulnerabilities |
 
 ---
 
-## \ud83d\udce6 Getting Started
+## Getting Started
 
 Install via npm or yarn:
 
@@ -83,24 +77,25 @@ sock.ev.on("creds.update", saveCreds);
 
 ---
 
-## \ud83d\udd27 Additional Functions
+## Additional Functions
 
-### \ud83d\udce1 Get Channel ID
+### Get Channel ID
 ```javascript
 await sock.newsletterId(url);
 ```
 
-### \ud83d\udeab Check Banned Number
+### Check Banned Number
 ```javascript
 await sock.checkWhatsApp(target);
 ```
 
 ---
 
-## \ud83d\udcd6 SendMessage Documentation
+## SendMessage Documentation
 
 <details>
-<summary><b>\ud83d\udce2 Group Status Message (V2)</b></summary>
+<summary><b>Group Status Message (V2)</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
@@ -112,7 +107,8 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\uddbc\ufe0f Album Message (Multiple Images)</b></summary>
+<summary><b>Album Message (Multiple Images)</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
@@ -125,7 +121,8 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\udcc5 Event Message</b></summary>
+<summary><b>Event Message</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
@@ -148,7 +145,8 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\udcca Poll Result Message</b></summary>
+<summary><b>Poll Result Message</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
@@ -164,14 +162,15 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\udd18 Simple Interactive Message</b></summary>
+<summary><b>Simple Interactive Message</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @badzzne2",
+        footer: "telegram: @edgar",
         buttons: [
             {
                 name: "cta_copy",
@@ -188,20 +187,21 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83c\udf0a Interactive Message with Native Flow</b></summary>
+<summary><b>Interactive Message with Native Flow</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @badzzne2",
+        footer: "telegram: @edgar",
         image: { url: "https://example.com/image.jpg" },
         nativeFlowMessage: {
             messageParamsJson: JSON.stringify({
                 limited_time_offer: {
                     text: "Limited offer text",
-                    url: "https://t.me/badzzne2",
+                    url: "https://t.me/edgar",
                     copy_code: "PROMO2024",
                     expiration_time: Date.now() * 999
                 },
@@ -214,7 +214,7 @@ await sock.sendMessage(target, {
                 tap_target_configuration: {
                     title: "Title",
                     description: "Description text",
-                    canonical_url: "https://t.me/badzzne2",
+                    canonical_url: "https://t.me/edgar",
                     domain: "shop.example.com",
                     button_index: 0
                 }
@@ -264,14 +264,15 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\uddbc\ufe0f Interactive Message with Thumbnail</b></summary>
+<summary><b>Interactive Message with Thumbnail</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @badzzne2",
+        footer: "telegram: @edgar",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -289,7 +290,8 @@ await sock.sendMessage(target, {
 </details>
 
 <details>
-<summary><b>\ud83d\uded2 Product Message</b></summary>
+<summary><b>Product Message</b></summary>
+<br/>
 
 ```javascript
 await sock.sendMessage(target, {
@@ -302,9 +304,4 @@ await sock.sendMessage(target, {
         url: "https://example.com/product",
         body: "Product details",
         footer: "Special price",
-        priceAmount1000: 50000,
-        currencyCode: "USD",
-        buttons: [
-            {
-                name: "cta_url",
-                buttonParamsJson
+        pr
