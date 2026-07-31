@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://d.top4top.io/p_38645k6aw1.jpg" alt="WhatsApp Baileys Edgar" width="100%" />
+<img src="https://c.top4top.io/p_3864vmhd61.jpg" alt="WhatsApp Baileys Edgar" width="100%" />
 
 <br/>
 <br/>
