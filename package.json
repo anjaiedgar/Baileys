@@ -26,7 +26,6 @@
     "WAProto/*.d.ts",
     "engine-requirements.js"
 ],
-    ],
     "scripts": {
         "build:all": "tsc && typedoc",
         "build:docs": "typedoc",
