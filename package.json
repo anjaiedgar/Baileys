@@ -20,10 +20,12 @@
     "author": "EdgarOffc",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
-    "files": [
-        "lib/*",
-        "WAProto/*.js",
-        "engine-requirements.js"
+   "files": [
+    "lib/**/*",
+    "WAProto/*.js",
+    "WAProto/*.d.ts",
+    "engine-requirements.js"
+],
     ],
     "scripts": {
         "build:all": "tsc && typedoc",
